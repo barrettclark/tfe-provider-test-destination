@@ -9,7 +9,7 @@ terraform {
 }
 
 data "tfe_outputs" "pet" {
-  organization = "ventingcloud"
+  organization = "barretto"
   workspace    = "tfe-provider-test-source"
 }
 
